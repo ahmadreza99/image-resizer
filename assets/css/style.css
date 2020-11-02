@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #E1E1E1;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  max-width: 100%;
+  margin: auto;
+  display: block;
+  clear: both;
+  padding: 0 30px;
+}
+.container .card {
+  background: #FFFFFF;
+  width: 100%;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 8px 80px -6px rgba(0, 0, 0, 0.08);
+  margin: 30px 0;
+}
+.container .card h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 1.5em;
+}
+.container .card form {
+  display: inline-block;
+  width: 100%;
+}
+.container .card form input[type=text] {
+  width: calc(100% - 400px);
+  float: left;
+  border: 1px solid #CCCCCC;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  border-radius: 4px 0 0 4px;
+  padding: 10px;
+}
+.container .card form input[type=number] {
+  width: 150px;
+  float: left;
+  border: 1px solid #CCCCCC;
+  border-left: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+.container .card form input[type=submit] {
+  width: 100px;
+  float: left;
+  padding: 14.5px 0;
+  border: 1px solid #CCCCCC;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  background: #3498DB;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
